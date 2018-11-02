@@ -119,6 +119,7 @@ public enum StandardActions implements Action {
     NEW_ENTRY(Localization.lang("New entry"), IconTheme.JabRefIcons.ADD_ENTRY, KeyBinding.NEW_ENTRY),
     NEW_ARTICLE(Localization.lang("New article"), IconTheme.JabRefIcons.ADD_ENTRY),
     NEW_ENTRY_FROM_PLAINTEX(Localization.lang("New entry from plain text"), KeyBinding.NEW_FROM_PLAIN_TEXT),
+    NEW_ENTRY_FROM_ID(Localization.lang("New entry from entry-based ID generator"), IconTheme.JabRefIcons.ADD_ENTRY),
     LIBRARY_PROPERTIES(Localization.lang("Library properties")),
     EDIT_PREAMBLE(Localization.lang("Edit preamble")),
     EDIT_STRINGS(Localization.lang("Edit strings"), IconTheme.JabRefIcons.EDIT_STRINGS, KeyBinding.EDIT_STRINGS),
